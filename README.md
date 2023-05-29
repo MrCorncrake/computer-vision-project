@@ -17,7 +17,7 @@ python -m venv ./venv/
 
 *For Linux Shell:*
 ```
-.\venv\Scripts\activate
+source ./venv/bin/activate
 ```
 
 ### Download requirements.txt
