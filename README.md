@@ -1,6 +1,9 @@
 # computer-vision-project
 Project for Computer Vision
 
+## Download data from
+https://www.kaggle.com/competitions/plant-pathology-2021-fgvc8/data
+
 ## How to create venv
 ```
 python -m venv ./venv/
