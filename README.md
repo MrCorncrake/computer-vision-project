@@ -25,3 +25,14 @@ source ./venv/bin/activate
 ```
 pip install -r requirements.txt
 ```
+
+### Create jupyter kernel
+```
+python -m ipykernel install --user --name jupyter-ucz-gleb-kernel
+```
+
+### GPU support on windows
+```
+tensorflow 2.12 doesn't support GPU in native Windows, instructions for https://www.tensorflow.org/install/pip?hl=pl#windows-wsl2 
+have to be followed. Or you can use a lower tensorflow version (max 2.10).
+```
